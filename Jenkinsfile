@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_USER = '1t1scool'
-        IMAGE_NAME  = 'react-counter'
+        IMAGE_NAME  = 'react-modal'
         IMAGE_TAG   = "${BUILD_NUMBER}"
         FULL_IMAGE  = "${DOCKER_USER}/${IMAGE_NAME}:${IMAGE_TAG}"
         LATEST_IMAGE = "${DOCKER_USER}/${IMAGE_NAME}:latest"
